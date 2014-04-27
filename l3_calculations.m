@@ -23,7 +23,7 @@ shear_force_per_shear_pin = 35  % approx 35 pounds to shear a 2-56 nylon screw
 charge_psi = 17;
 C = 0.0065;  %from table above
 D = airframe_diameter;    %inches
-Lmain = 24.0 - 5.0;   % inches, compensate for the E-bay
+Lmain = 36.125 - 5.0 + 5.5;   % inches, compensate for the E-bay and nosecone
 Ldrogue = 52.0 - 7.0 - 18.0; %inches, compensate for E-Bay and Motor
 
 
